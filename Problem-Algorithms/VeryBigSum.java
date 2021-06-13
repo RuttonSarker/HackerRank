@@ -9,9 +9,10 @@ import java.util.*;
 public class VeryBigSum {
 
     public static void main(String[] args) {
-        long arr[] = new long[100];
+
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
+        long arr[] = new long[n];
         long sum = 0;
 
         for (int i = 0; i < n; i++) {
