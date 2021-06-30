@@ -42,5 +42,6 @@ public class GradingStudents {
                 System.out.println(grade[i]);
             }
         }
+        s.close();
     }
 }

@@ -24,5 +24,6 @@ public class StairCase {
             p++;
             q--;
         }
+        scanner.close();
     }
 }

@@ -33,5 +33,6 @@ public class DiagonalDifference {
         }
 
         System.out.println(Math.abs(sum1 - sum2));
+        scanner.close();
     }
 }

@@ -30,6 +30,7 @@ public class BirthdayCakeCandles {
         }
 
         System.out.println(count);
+        s.close();
 
     }
 

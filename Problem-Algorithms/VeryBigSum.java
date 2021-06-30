@@ -2,7 +2,6 @@
  Solved by Rutton Chandra Sarker
  North South University
  */
-package verybigsum;
 
 import java.util.*;
 
@@ -21,6 +20,7 @@ public class VeryBigSum {
             sum += arr[i];
         }
         System.out.println(sum);
+        input.close();
     }
 
 }

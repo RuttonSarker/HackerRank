@@ -31,7 +31,6 @@ public class PlusMinus {
         System.out.format("%.6f\n", (pos / n));
         System.out.format("%.6f\n", (neg / n));
         System.out.format("%.6f", (zero / n));
-
+        input.close();
     }
-
 }

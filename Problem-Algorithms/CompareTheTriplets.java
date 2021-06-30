@@ -6,7 +6,6 @@
 import java.util.*;
 
 public class CompareTheTriplets {
-
     public static void main(String[] args) {
         int a[] = new int[3];
         int b[] = new int[3];
@@ -31,7 +30,7 @@ public class CompareTheTriplets {
         for (int j = 0; j < c.length; j++) {
             System.out.print(c[j] + " ");
         }
-
+        input.close();
     }
 
 }
