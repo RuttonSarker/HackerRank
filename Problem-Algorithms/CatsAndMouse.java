@@ -15,6 +15,7 @@ public class CatsAndMouse {
             int z = scanner.nextInt();
             int unit1 = Math.abs(z - x);
             int unit2 = Math.abs(z - y);
+            
             if (unit1 < unit2) {
                 System.out.println("Cat A");
             } else if (unit1 > unit2) {
