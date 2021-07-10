@@ -10,11 +10,14 @@ public class PdfViewer {
         Scanner sc = new Scanner(System.in);
         int h[] = new int[26];
         int max = 0;
+
         for (int i = 0; i < h.length; i++) {
             h[i] = sc.nextInt();
         }
+
         sc.nextLine();
         String s = sc.nextLine();
+
         for (int j = 0; j < s.length(); j++) {
             char a = s.charAt(j);
             int value = a - 97;
@@ -23,6 +26,7 @@ public class PdfViewer {
                 max = h[value];
             }
         }
+
         int area = max * s.length();
         System.out.println(area);
         sc.close();

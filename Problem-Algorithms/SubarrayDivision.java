@@ -24,14 +24,17 @@ public class SubarrayDivision {
             if (limit > n) {
                 break;
             }
+
             for (int j = 0; j < m; j++) {
                 sum += arr[i + j];
             }
+
             if (sum == d) {
                 count++;
             }
             sum = 0;
         }
+
         System.out.println(count);
         s.close();
     }

@@ -20,6 +20,7 @@ public class StairCase {
             for (int k = q; k < n + 1; k++) {
                 System.out.print("#");
             }
+
             System.out.println();
             p++;
             q--;
