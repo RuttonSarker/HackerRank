@@ -33,11 +33,13 @@ public class AppleOrange {
                 appleCount++;
             }
         }
+
         for (int j = 0; j < n; j++) {
             if (orange[j] >= s && orange[j] <= t) {
                 orangeCount++;
             }
         }
+
         System.out.println(appleCount);
         System.out.println(orangeCount);
         scanner.close();
