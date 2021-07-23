@@ -21,25 +21,18 @@ public class AppleOrange {
         for (int i = 0; i < m; i++) {
             apple[i] = scanner.nextInt();
             apple[i] += a;
-        }
-
-        for (int j = 0; j < n; j++) {
-            orange[j] = scanner.nextInt();
-            orange[j] += b;
-        }
-
-        for (int i = 0; i < m; i++) {
             if (apple[i] >= s && apple[i] <= t) {
                 appleCount++;
             }
         }
 
         for (int j = 0; j < n; j++) {
+            orange[j] = scanner.nextInt();
+            orange[j] += b;
             if (orange[j] >= s && orange[j] <= t) {
                 orangeCount++;
             }
         }
-
         System.out.println(appleCount);
         System.out.println(orangeCount);
         scanner.close();
