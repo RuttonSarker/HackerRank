@@ -16,8 +16,7 @@ public class BreakingTheRecords {
             scores[i] = s.nextInt();
         }
 
-        int max = scores[0];
-        int min = scores[0];
+        int max = scores[0], min = scores[0];
 
         for (int i = 0; i < n - 1; i++) {
             if (max < scores[i + 1]) {

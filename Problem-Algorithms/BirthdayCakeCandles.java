@@ -28,10 +28,7 @@ public class BirthdayCakeCandles {
                 count++;
             }
         }
-
         System.out.println(count);
         s.close();
-
     }
-
 }
