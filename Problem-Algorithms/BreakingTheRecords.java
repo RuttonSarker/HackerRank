@@ -17,7 +17,6 @@ public class BreakingTheRecords {
         }
 
         int max = scores[0], min = scores[0];
-
         for (int i = 0; i < n - 1; i++) {
             if (max < scores[i + 1]) {
                 max = scores[i + 1];
@@ -28,7 +27,6 @@ public class BreakingTheRecords {
                 worstRecord++;
             }
         }
-
         System.out.print(bestRecord + " " + worstRecord);
         s.close();
     }
