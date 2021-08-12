@@ -2,7 +2,6 @@
 Solved By Rutton Chandra Sarker
 North South University
  */
-package sumofarray;
 
 import java.util.*;
 
@@ -29,5 +28,6 @@ public class SumOfArray {
         }
 
         simpleArraySum(ar);
+        input.close();
     }
 }
