@@ -7,16 +7,18 @@ import java.util.*;
 
 public class DataTypes {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        double b = sc.nextDouble();
-        sc.nextLine();
-        String c = sc.nextLine();
-        String s = "HackerRank";
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
 
-        System.out.println(a + (int) b);
-        System.out.println(b * 2);
-        System.out.println(s.concat(" ").concat(c));
-        sc.close();
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        double b = scan.nextDouble();
+        scan.nextLine();
+        String c = scan.nextLine();
+        System.out.println(a + i);
+        System.out.println(b + d);
+        System.out.println(s + c);
+        scan.close();
     }
 }
