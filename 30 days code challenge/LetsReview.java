@@ -12,7 +12,6 @@ public class LetsReview {
         sc.nextLine();
 
         while (t != 0) {
-
             String s = sc.nextLine();
             String a = "";
             String b = "";
