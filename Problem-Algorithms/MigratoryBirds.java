@@ -7,12 +7,22 @@ import java.util.*;
 
 public class MigratoryBirds {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int arr[] = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = scanner.nextInt();
+        int max = 0, type = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            int bird = sc.nextInt();
+            arr[bird - 1]++;
         }
-        scanner.close();
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+                type = i + 1;
+            }
+        }
+        System.out.println(type);
+        sc.close();
     }
 }
