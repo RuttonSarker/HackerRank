@@ -16,7 +16,7 @@ public class SalesMatch {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (!match.contains(arr[i])) {
                 match.add(arr[i]);
             } else {
